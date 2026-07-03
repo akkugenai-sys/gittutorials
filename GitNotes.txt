@@ -1,0 +1,31 @@
+git init ----initilize git
+
+git config --global user.name "Akku Hesarur"
+git config --global user.email "akkugenai@gmail.com"
+
+git status --------shows changes to be committed
+git add READ.md -------to track the files by Git
+
+git commit -m " This is the first commit" --------------changes moved to staging env
+
+git branch ---------> master default
+
+git branch -M 'main' --------main branch
+
+Local repository connected to remote repository
+git remote add origin https://github.com/akkugenai-sys/gittutorials.git
+
+git remote -v --------------> anything committed in staging environment will be in origin variable
+
+git push origin main
+
+git restore README.md
+
+git add. -----------
+
+git commit -m "git commit commment"
+
+git remote -v
+git push origin main
+
+git clone https://github.com/akkugenai-sys/gittutorials.git 
